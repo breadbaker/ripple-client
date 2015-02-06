@@ -8,10 +8,13 @@
   },
   "dependencies": {
     "grunt": "0.4.5",
+    "express": "3.x",
+    "node-rest-client": "1.4.4"
+  },
+  "devDependencies": {
     "grunt-cli": "0.1",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-jscs": "^0.8.1",
-    "node-rest-client": "1.4.4"
+    "grunt-jscs": "^0.8.1"
   },
   "scripts": {
     "postinstall": "echo postinstall time; ./node_modules/grunt-cli/bin/grunt"
