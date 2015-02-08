@@ -8,10 +8,10 @@ module.exports = function (grunt) {
 
     grunt.config.set('nodemon', {
       server: {
-        script: 'src/index.js',
+        script: 'server/index.js',
         options: {
           nodeArgs: ['--debug'],
-          watch: ['src'],
+          watch: ['server'],
         }
       }
     });

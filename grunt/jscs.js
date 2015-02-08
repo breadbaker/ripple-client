@@ -7,7 +7,8 @@ module.exports = function (grunt) {
         },
         all: {
             src: [
-                'src/**/*.js'
+                'client/**/*.js',
+                'server/**/*.js'
             ]
         }
     });

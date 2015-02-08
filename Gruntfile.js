@@ -9,6 +9,10 @@ module.exports = function (grunt) {
     });
 
     grunt.registerTask('default', [
+        'handlebars',
+        'browserify:dev',
+        'copy:dev',
+        'less:dev',
         'concurrent:dev'
     ]);
 };

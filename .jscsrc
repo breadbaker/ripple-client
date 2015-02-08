@@ -86,5 +86,5 @@
         "checkRedundantParams": true,
         "requireParamTypes": true
     },
-    "excludeFiles": ["node_modules/**", "client/styles/fonts/**", "client/scripts/vendor/**", "client/scripts/templates.js"]
+    "excludeFiles": ["node_modules/**", "client/styles/fonts/**", "client/scripts/vendor/**", "client/scripts/templates.js", "server/web/**"]
 }
